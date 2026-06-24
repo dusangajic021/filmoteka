@@ -1,0 +1,8 @@
+# C# privremeni fajlovi
+.vs/
+bin/
+obj/
+
+# React privremeni fajlovi
+node_modules/
+dist/
