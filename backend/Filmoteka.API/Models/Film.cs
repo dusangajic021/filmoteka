@@ -6,7 +6,10 @@
         public required string Naslov { get; set; }
         public int GodinaIzdanja { get; set; }
 
-        // Strani ključ i veza ka Žanru
+        // Nova polja za pretragu i filtriranje
+        public string? Opis { get; set; }
+        public bool UBioskopima { get; set; }
+
         public int ZanrId { get; set; }
         public Zanr? Zanr { get; set; }
     }
