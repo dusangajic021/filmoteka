@@ -12,5 +12,8 @@ namespace Filmoteka.API.Data
         // Ove dve linije prave tabele u SQL-u
         public DbSet<Film> Filmovi { get; set; }
         public DbSet<Zanr> Zanrovi { get; set; }
+        public DbSet<Sala> Sale { get; set; }
+        public DbSet<Projekcija> Projekcije { get; set; }
+        public DbSet<Rezervacija> Rezervacije { get; set; }
     }
 }
